@@ -137,9 +137,14 @@
     <Compile Include="Migrations\202112210603514_Create_Table_LopHocNVC560.Designer.cs">
       <DependentUpon>202112210603514_Create_Table_LopHocNVC560.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210614506_Create_Table_SinVien.cs" />
+    <Compile Include="Migrations\202112210614506_Create_Table_SinVien.Designer.cs">
+      <DependentUpon>202112210614506_Create_Table_SinVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LopHoc560.cs" />
     <Compile Include="Models\LTQLDb.cs" />
+    <Compile Include="Models\NVCSinhVien560.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +208,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112210603514_Create_Table_LopHocNVC560.resx">
       <DependentUpon>202112210603514_Create_Table_LopHocNVC560.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210614506_Create_Table_SinVien.resx">
+      <DependentUpon>202112210614506_Create_Table_SinVien.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

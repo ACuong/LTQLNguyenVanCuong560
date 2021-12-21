@@ -14,5 +14,7 @@ namespace LTQL_1521050560.Models
 
         [Display(Name = "Tên lớp")]
         public string TenLop { get; set; }
+
+        public ICollection<NVCSinhVien560> NVCSinhVien560s { get; set; }
     }
 }
