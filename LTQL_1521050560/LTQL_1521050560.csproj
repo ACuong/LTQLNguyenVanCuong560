@@ -130,6 +130,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LopHoc560Controller.cs" />
+    <Compile Include="Controllers\NVCSinhVien560Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -188,6 +189,11 @@
     <Content Include="Views\LopHoc560\Details.cshtml" />
     <Content Include="Views\LopHoc560\Edit.cshtml" />
     <Content Include="Views\LopHoc560\Index.cshtml" />
+    <Content Include="Views\NVCSinhVien560\Create.cshtml" />
+    <Content Include="Views\NVCSinhVien560\Delete.cshtml" />
+    <Content Include="Views\NVCSinhVien560\Details.cshtml" />
+    <Content Include="Views\NVCSinhVien560\Edit.cshtml" />
+    <Content Include="Views\NVCSinhVien560\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
